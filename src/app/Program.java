@@ -9,9 +9,9 @@ public class Program {
         Scanner receiver = new Scanner(System.in);
         Calculator calculateBMI = new Calculator();
 
-        System.out.print("Insert your weigth in kilograms.");
+        System.out.print("Insert your weight in kilograms: ");
         calculateBMI.weight = receiver.nextDouble();
-        System.out.println("Insert your height in meters and centimeters");
+        System.out.println("Insert your height in meters and centimeters: ");
         calculateBMI.height = receiver.nextDouble();
 
         double bmi = calculateBMI.bmiCalc();
